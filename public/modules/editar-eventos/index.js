@@ -177,11 +177,11 @@ const guardarDatos = async () => {
               button: "Continuar",
             }); 
 
-            /*    setTimeout(() => {
+              setTimeout(() => {
               window.location.replace(
               "../listar-eventos/index.html"
             )
-            }, 2000);  */
+            }, 2000);  
 
             })
             .catch(function(err) {
