@@ -1,0 +1,38 @@
+body{
+    background-color: #2D325A!important;
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+ 
+}
+
+
+footer{
+    background: linear-gradient(113.59deg, #7033FF -23.09%, #4E7CFF 1.36%, #F65164 102.09%);
+    height: 17px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+
+.btn-base{
+    background: #f65164;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 25px;
+    color: white;
+    vertical-align: middle;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.close-base{
+    background: #7033FF;
+    border: none;
+    font-family: "Open Sans", sans-serif;
+
+    padding: 10px 25px;
+    border-radius: 25px;
+    color: white;
+    vertical-align: middle;
+}

@@ -1,0 +1,140 @@
+body {
+  background-image: url(../../assets/img/half-circle-left.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 13%;
+}
+.row {
+  height: 80vh;
+  margin-top: 200px !important;
+}
+
+/* This was made with GlassGenerator.netlify.app */
+
+.table-container {
+  width: 1061px;
+  height: 60vh;
+  overflow-y: scroll;
+}
+
+table {
+  border-radius: 50px;
+}
+
+thead {
+  background-color: #202442;
+  height: 61px !important;
+  border-radius: 30px !important;
+  vertical-align: middle !important;
+  color: #7033FF;
+}
+
+tbody {
+  vertical-align: middle !important;
+}
+tbody tr {
+  height: 61px !important;
+}
+table th:first-child {
+  border-radius: 50px 0 0 50px;
+}
+
+table th:last-child {
+  border-radius: 0 50px 50px 0;
+}
+
+.add-event-button {
+  padding: 15px 50px;
+  border-radius: 25px;
+  border: none;
+  background-color: #f65164;
+  color: white;
+  font-size: 18px;
+}
+.add-event-button:active {
+  transform: translateY(4px);
+}
+.edit-button {
+  font-family: "Open Sans", sans-serif;
+  background: #f65164;
+border: none;
+  border-radius: 25px;
+  color: white;
+  width: 78px;
+  height: 39px;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 14px;
+}
+.edit-button:active {
+  transform: translateY(4px);
+}
+.delete-button {
+ background: transparent;
+ border: none;
+ 
+}
+.delete-button:active {
+  transform: translateY(4px);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 17px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+ 
+}
+/* ::-webkit-scrollbar { 
+  display: none; 
+} */
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #f65164; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #fd3a51; 
+}
+
+/* DATOS DEL MODAL */
+.modal-content{
+  background-color: #202442!important;
+  
+}
+.modal-footer, .modal-header{
+  border-image: linear-gradient(113.59deg, #7033FF -23.09%, #4E7CFF 1.36%, #F65164 102.09%);
+  border-image-slice: 1;
+}
+
+.form-group {
+  width: 476px;
+}
+.form-control {
+  height: 53px;
+  color: white!important;
+  border: 2px solid transparent !important;
+  border-radius: 10px !important;
+  background: linear-gradient(#2d325a, #2d325a) padding-box,
+    /*this is your grey background*/
+      linear-gradient(
+        113.59deg,
+        #7033ff -23.09%,
+        #4e7cff 1.36%,
+        #f65164 102.09%
+      )
+      border-box !important;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #5d6392!important;
+  }

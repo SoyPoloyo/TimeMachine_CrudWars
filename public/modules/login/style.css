@@ -1,0 +1,85 @@
+
+.container{
+    background-image: url(../../assets/img/half-circle.svg);
+    background-size: cover;
+    
+    
+}
+.row {
+  height: 100vh;
+  
+}
+
+/* This was made with GlassGenerator.netlify.app */
+
+.glass-container {
+  width: 636px;
+  height: 423px;
+  box-shadow: 0px 4px 35px 5px rgba(32, 36, 66, 0.5);
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 200!important;
+  background-color: #2d325a;
+}
+.title {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.form-group {
+  width: 476px;
+}
+.form-control {
+  height: 53px;
+  color: white!important;
+  border: 2px solid transparent !important;
+  border-radius: 10px !important;
+  background: linear-gradient(#2d325a, #2d325a) padding-box,
+    /*this is your grey background*/
+      linear-gradient(
+        113.59deg,
+        #7033ff -23.09%,
+        #4e7cff 1.36%,
+        #f65164 102.09%
+      )
+      border-box !important;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #5d6392!important;
+  }
+
+.btn-style {
+  background-color: #f65164;
+  padding: 15px 50px;
+  width: 149px;
+  height: 55px;
+  margin-top: 50px;
+  border-radius: 25px;
+  border: none;
+ text-decoration: none;
+
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+}
+
+.btn-style:hover {
+    background-color: #fa3b51;
+   
+  }
+  .btn-style:active{
+    transform: translateY(4px);
+  }
+
+  .logo{
+      margin-top: 15vh;
+      margin-bottom: 3rem;
+  }
