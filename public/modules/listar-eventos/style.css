@@ -7,7 +7,7 @@ body {
 }
 .row {
   height: 80vh;
-  margin-top: 200px !important;
+  margin-top: 170px !important;
 }
 
 /* This was made with GlassGenerator.netlify.app */
@@ -81,7 +81,7 @@ border: none;
 
 /* width */
 ::-webkit-scrollbar {
-  width: 17px;
+  width: 10px;
 
 }
 

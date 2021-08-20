@@ -61,8 +61,9 @@ document.addEventListener("DOMContentLoaded", async function renderEvents() {
         <tr class="" id=${evento.uid}>
                 <th scope="row">${evento.nombre} </th>
                 <td>${fecha.toLocaleDateString("en", options)}</td>
-                <td>${evento.ciudad}, ${evento.pais}</td>
+                <td>${evento.pais}</td>
                 <td>
+                  <button class="edit-button" onClick="openEvents('${evento.uid}')">Open</button>
                   <button class="edit-button" onClick="editEvents('${evento.uid}')">Edit</button>
                   <button class="delete-button" onClick="deleteEvents('${evento.uid}')">
                     <img src="../../assets/img/close-button.svg" alt="">
@@ -122,6 +123,10 @@ async function deleteEvents(id) {
 const editEvents = (id) => {
     localStorage.setItem('id' , id);
     window.location = '../editar-eventos/index.html'
+}
+const openEvents = (id) => {
+    localStorage.setItem('id' , id);
+    window.location = '../abrir-eventos/index.html'
 }
 
 function addEvent() {

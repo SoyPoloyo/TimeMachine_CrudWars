@@ -1,0 +1,209 @@
+body {
+  background-image: url(../../assets/img/dark-bg.svg), url(../../assets/img/dark-bg.svg);
+  background-size: cover;
+ background-repeat: no-repeat, no-repeat;
+  background-position: left, right;
+  background-size: 30% 500%, 27% 450%;
+}
+
+
+
+.container{
+  max-width: 1440px;
+}
+header {
+height: 22vh;  
+ 
+}
+main{
+  height: 70vh;
+ 
+}
+
+.text-content{
+ height: 70vh;
+ overflow: overlay;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+ 
+}
+ ::-webkit-scrollbar { 
+  display: none; 
+} 
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #f65164; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #fd3a51; 
+}
+/* This was made with GlassGenerator.netlify.app */
+
+.content-space{
+  width: 332px;
+  height: 248px;
+background: rgba(32, 36, 66, 0.5);
+border-radius: 35px;
+}
+.content-space2{
+  width: 332px;
+  height: 171px;
+background: rgba(32, 36, 66, 0.5);
+border-radius: 35px;
+}
+.content-space3{
+  width: 661px;
+  height: 390px;
+background: rgba(32, 36, 66, 0.5);
+border-radius: 35px;
+}
+
+.form-label{
+  
+color: #F65164;
+  font-size: 24px;
+line-height: 33px;
+}
+
+.form-group {
+  width: 200px;
+}
+.form-control {
+  height: 40px;
+  color: white!important;
+  border: 2px solid transparent !important;
+  border-radius: 10px !important;
+  background: linear-gradient(#2d325a, #2d325a) padding-box,
+    /*this is your grey background*/
+      linear-gradient(
+        113.59deg,
+        #7033ff -23.09%,
+        #4e7cff 1.36%,
+        #f65164 102.09%
+      )
+      border-box !important;
+}
+
+.form-control1 {
+  height: 230px;
+  margin-bottom: 50px;
+
+}
+
+.form-control::-webkit-input-placeholder {
+    color: white!important;
+  }
+
+  .inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .inputfile + label {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 10px 20px;
+    
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: #7033ff;
+}
+
+.inputfile + label {
+	cursor: pointer; /* "hand" cursor */
+}
+
+.inputfile:focus + label {
+	outline: 1px dotted #000;
+	outline: -webkit-focus-ring-color auto 5px;
+}
+
+
+.top-border-img{
+
+  position: relative;
+text-align: center;
+}
+.top-border-img svg{
+  position: absolute;
+  top: -50px;
+  left: 40%;
+}
+.top-border-img svg:last-child{
+  position: absolute;
+  top: -37px;
+  left: 45%;
+}
+
+.saveButton{
+  padding: 15px 50px;
+  background: #F65164;
+border-radius: 25px;
+color: white;
+border: none;
+}
+
+.saveButton:active {
+  transform: translateY(4px);
+}
+
+.relatedCharacterSvg, .dateOfEvent{
+  margin-left: 1.5px;
+  margin-top: 3.5px;
+}
+.placeOnEart{
+  margin-left: -7px;
+  margin-top: 4px;
+}
+.eventDescription{
+  margin-left: -11px;
+  margin-top: 5px;
+}
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+.img-style{
+  width: 100%;
+  height: 340px;
+  object-fit: cover;
+  border-radius: 25px;
+  margin-top: 0;
+}
+
+.fe-fecha{
+  color: #F65164!important;
+}
+
+.img-style-char{
+  width: 50px;
+height: 50px;
+background: #C4C4C4;
+border-radius: 10px;
+vertical-align: middle;
+}
