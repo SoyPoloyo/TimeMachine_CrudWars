@@ -36,20 +36,6 @@ const eventosGet = async (req, res = response) => {
     ])
 
 
-    // obtener principios activos
-    /* const nombre = eventos.map(arr => {
-        return arr.PA
-    }) */
-
-    // obtener nombres comerciales
-   /*  const nombresComerciales = [];
-    eventos.forEach(uno =>
-
-        uno.NC.forEach(({ NOMBRE }) => {
-            nombresComerciales.push(NOMBRE);
-        })
-
-    ) */
 
     res.json({
         Info: `Eventos totales guardados: ${total}, Mostrando del: ${desde} al ${desde + limite}`,

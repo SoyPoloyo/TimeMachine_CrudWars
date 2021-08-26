@@ -1,3 +1,3 @@
-# FarmaClub
-Aplicacion para ver los farmacos de costa rica
+# Time Machine
+App for time through trhow different events
 

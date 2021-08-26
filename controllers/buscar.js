@@ -21,9 +21,7 @@ const buscar = async (req, res = response) => {
 
         const evento = await Evento.findById(termino);
 
-        // return res.json({
-        //     Result: (farmaco) ? [farmaco] : []
-        // })
+      
 
         if (evento.length === 0) {
             return res.status(404).json({
