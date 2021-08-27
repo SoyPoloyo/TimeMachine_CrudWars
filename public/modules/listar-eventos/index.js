@@ -29,6 +29,7 @@ async function deleteEvent(id) {
 /* RENDERIZAR LA LISTA AL INICIAR */
 document.addEventListener("DOMContentLoaded", async function renderEvents() {
 
+    localStorage.clear();
     let eventsList = await getEvents();
 
     const { eventos } = eventsList;

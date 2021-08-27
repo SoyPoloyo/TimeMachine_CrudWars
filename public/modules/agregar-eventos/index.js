@@ -149,7 +149,7 @@ const guardarDatos = async () => {
                 let formData = new FormData();
                 formData.append("archivo", char2Img.files[0]);
 
-                 fetch2 = await fetch("/api/uploads/char1/" + identificador, {
+                 fetch2 = await fetch("/api/uploads/char2/" + identificador, {
                   body: formData,
                   method: "PUT",
           
@@ -159,7 +159,7 @@ const guardarDatos = async () => {
                   })
                   .then(function(res) {
                     console.log(res);
-                    console.log('respuesta de la imagen 1');
+                    console.log('respuesta de la imagen 2');
                   })
                   .catch(function(err) {
                     console.log(err);

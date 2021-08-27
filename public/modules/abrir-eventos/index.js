@@ -1,5 +1,5 @@
 
-
+let char2Data = document.getElementById('char2Data');
 
 let identificador = localStorage.getItem('id');
 let id = localStorage.getItem('id');
@@ -35,14 +35,13 @@ document.addEventListener("DOMContentLoaded", async function renderEvents() {
     document.getElementById('relatedCharacter2').innerText = event.personajes[1].nombre;
     document.getElementById('dateOfEvent').value = fecha.toLocaleDateString("en", options);
     document.getElementById('placeOnEart').value = event.pais;
+    
     document.getElementById('eventDescription').innerText = event.descripcion;
 
-
-    console.log(event.personajes[0].nombre);
-
-
-
-
+ 
+    if (char2Data.childNodes[0].parentElement.innerText.length < 5) {
+       char2Data.style.visibility = "hidden";
+    }
 
 });
 
