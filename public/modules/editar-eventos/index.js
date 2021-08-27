@@ -3,6 +3,7 @@
 let input = document.querySelectorAll('.inputfile');
 
 let identificador = localStorage.getItem('id');
+
 let id = localStorage.getItem('id');
 let eventImg = document.getElementById('file');
 let char1Img = document.getElementById('file2');
@@ -103,9 +104,6 @@ const guardarDatos = async () => {
             })
             .then(async function(res) {
               console.log(res);
-              console.log('si era este arriba');
-
-                
               
                 if (eventImg.files[0]) {
                     let formData = new FormData();
@@ -121,7 +119,7 @@ const guardarDatos = async () => {
                       })
                       .then(function(res) {
                         console.log(res);
-                        console.log('respuesta de la imagen 1');
+                        console.log('respuesta de la imagen principal');
                       })
                       .catch(function(err) {
                         console.log(err);
@@ -153,7 +151,7 @@ const guardarDatos = async () => {
                 let formData = new FormData();
                 formData.append("archivo", char2Img.files[0]);
 
-                 fetch2 = await fetch("/api/uploads/char1/" + identificador, {
+                 fetch2 = await fetch("/api/uploads/char2/" + identificador, {
                   body: formData,
                   method: "PUT",
           
@@ -163,7 +161,7 @@ const guardarDatos = async () => {
                   })
                   .then(function(res) {
                     console.log(res);
-                    console.log('respuesta de la imagen 1');
+                    console.log('respuesta de la imagen 2');
                   })
                   .catch(function(err) {
                     console.log(err);

@@ -122,16 +122,18 @@ async function deleteEvents(id) {
 }
 
 const editEvents = (id) => {
+    localStorage.clear();
     localStorage.setItem('id' , id);
     window.location = '../editar-eventos/index.html'
 }
 const openEvents = (id) => {
+    localStorage.clear();
     localStorage.setItem('id' , id);
     window.location = '../abrir-eventos/index.html'
 }
 
 function addEvent() {
-    console.log('funciona');
+ 
     location.href = '../agregar-eventos/index.html';
 
 }
